@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.10.RELEASE</version>
+    <relativePath /> <!-- lookup parent from repository -->
+  </parent>
+  <groupId>com.vaka</groupId>
+  <artifactId>lab-4</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>lab-4</name>
+  <description>Demo project for Spring Boot</description>
+
+  <properties>
+    <java.version>11</java.version>
+  </properties>
+
+
+  <modules>
+    <module>lab-4-eureka-server</module>
+    <module>lab-4-subject</module>
+    <module>lab-4-verb</module>
+    <module>lab-4-article</module>
+    <module>lab-4-adjective</module>
+    <module>lab-4-noun</module>
+    <module>lab-4-sentence</module>
+  </modules>
+
+</project>

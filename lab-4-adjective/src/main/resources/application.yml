@@ -1,0 +1,7 @@
+server:
+  port: 8025
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka/
+words: reasonable,leaky,suspicious,ordinary,unlikely
